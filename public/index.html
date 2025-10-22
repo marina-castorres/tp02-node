@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Notas</title>
+    <title>Calculadora de Média</title>
     <link rel="stylesheet" href="estilo.css"> <!-- página de estilo -->
 </head>
 
 <body>
     <div id="dvCorpo">
-        <h1 class="tituloPag">Calculadora de Notas</h1>
+        <h1 class="tituloPag">Calculadora de Média</h1>
         <div class="dvLista">
             <form action="./processar-post" method="post" id="formPost">
 
@@ -21,7 +21,7 @@
                         required 
                         placeholder="Nome completo do aluno"
                         class="txEx">
-                </label><br><br>
+                </label>
 
                 <label title="Insira a nota do 1º bimestre">Nota 1º Bim.: 
                     <input 
@@ -33,7 +33,7 @@
                         required 
                         placeholder="Nota de 0 a 10"
                         class="txEx">
-                </label><br><br>
+                </label>
     
                 <label title="Insira a nota do 2º bimestre">Nota 2º Bim.: 
                     <input 
@@ -45,7 +45,7 @@
                         required 
                         placeholder="Nota de 0 a 10"
                         class="txEx">
-                </label><br><br>
+                </label>
 
                 <button type="submit" class="btExc">Enviar</button>
             </form>

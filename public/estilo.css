@@ -24,105 +24,118 @@ body {
 #dvCorpo {
     border-radius: 20px;
     width: 90%;
-    max-width: 700px; /* Um pouco maior para formulários */
+    max-width: 700px;
+    /* Um pouco maior para formulários */
     height: auto;
     margin: 20px auto;
     padding: 10px 25px 25px 25px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Efeito mais suave */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    /* Efeito mais suave */
     border: 1px solid #eee;
     background-color: #fff;
 }
 
 /* Titulo principal */
 .titulosPag {
-  margin-left: 0;
-  color: rgb(69, 0, 134);
-  border-bottom: 2px solid rgb(69, 0, 134);
-  padding-bottom: 10px;
-  text-align: center;
+    margin-left: 0;
+    color: rgb(69, 0, 134);
+    border-bottom: 2px solid rgb(69, 0, 134);
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 /* Container para o formulário */
 .dvLista {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  overflow: auto;
-  padding-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding-top: 10px;
 }
 
 /* Estilo base para labels */
 label {
-  font-weight: 600;
-  color: #555;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 /* Classe de Caixa de texto */
 .txEx {
-  border: 1px solid rgb(69, 0, 134);
-  border-radius: 5px;
-  height: 40px; /* Um pouco mais alta que os 25px */
-  width: 100%; /* Ocupa 100% da largura */
-  padding-left: 10px;
-  font-size: 1rem;
-  margin-top: 8px;
-  font-family: inherit;
+    border: 1px solid rgb(69, 0, 134);
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    /* Ocupa 100% da largura */
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-top: 8px;
+    font-family: inherit;
 }
+
 .txEx:focus {
-  border: 2px solid rgb(69, 0, 134);
-  border-radius: 5px;
-  outline: none;
-  box-shadow: 0 0 8px rgba(69, 0, 134, 0.3);
+    border: 2px solid rgb(69, 0, 134);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 8px rgba(69, 0, 134, 0.3);
 }
 
 /* Classe de botões */
 .btExc {
-  background-color: rgb(253, 253, 253);
-  border: 2px solid rgb(69, 0, 134);
-  border-radius: 5px;
-  width: 100%; /* Ocupa 100% da largura */
-  height: 45px; /* Um pouco mais alta que os 35px */
-  margin-top: 25px;
-  margin-bottom: 20px;
-  color: rgb(69, 0, 134);
-  font-family: inherit;
-  font-size: 1.2rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+    background-color: rgb(253, 253, 253);
+    border: 2px solid rgb(69, 0, 134);
+    border-radius: 5px;
+    width: 100%;
+    /* Ocupa 100% da largura */
+    height: 45px;
+    /* Um pouco mais alta que os 35px */
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: rgb(69, 0, 134);
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
+
 .btExc:hover {
-  /* Efeito hover do seu 'index.css' */
-  background-color: rgb(69, 0, 134);
-  color: rgb(253, 253, 253);
+    /* Efeito hover do seu 'index.css' */
+    background-color: rgb(69, 0, 134);
+    color: rgb(253, 253, 253);
 }
 
 /* ### Estilos para a Página de Resultado (que virá do server.js) ### */
 .dvResultado h2 {
-  color: rgb(69, 0, 134);
-  border-bottom: 2px solid #eee;
-  padding-bottom: 10px;
-  text-align: center;
+    color: rgb(69, 0, 134);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .dvResultado p {
-  font-size: 1.1rem;
-  line-height: 1.0;
-  padding: 1px;
-  border-bottom: 1px solid #f0f0f0;
+    font-size: 1.1rem;
+    line-height: 0.1;
+    padding: 10px 1px;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 1px;
 }
 
 .dvResultado p b {
-  color: #333;
+    color: #333;
 }
 
 /* Estilo para o link "Voltar" */
 .btVoltar {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  line-height: 41px; /* (altura 45px - 2px borda - 2px borda) */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 41px;
+    /* (altura 45px - 2px borda - 2px borda) */
+    margin-top: 50px;
 }
